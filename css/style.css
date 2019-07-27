@@ -69,6 +69,11 @@ body {
   background-color: darkolivegreen;
 }
 
+.about-text {
+  font-family: "Share Tech Mono";
+  text-align: justify;
+}
+
 .stm-font {
   font-family: "Share Tech Mono", monospace;
 }
