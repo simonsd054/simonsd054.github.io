@@ -1,136 +1,266 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>
-      Simon Dahal
-    </title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!--Bootstrap CSS-->
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    />
-    <!--FontAwesome CSS-->
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
-      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
-      crossorigin="anonymous"
-    />
-    <!--My own Custom CSS-->
-    <link rel="stylesheet" href="./css/styles.css" />
-  </head>
-  <body data-spy="scroll" data-target=".navbar">
-    <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
-      <a class="navbar-brand" href="#" style="font-family:fantasy">Simon</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#collapsibleNavbar"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav mx-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#projects">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#aboutme">About Me</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
 
-    <!-- IMAGE -->
-    <div class="image" id="home">
-      <div class="portfolio">
-        <h1 class="display-3">My Portfolio</h1>
-        <a
-          href="https://github.com/simonsd054"
-          class="btn btn-secondary btn-lg btn-github"
-          target="_blank"
-        >
-          <i class="fab fa-github"></i> Github Profile
-        </a>
-        <a
-          href="https://linkedin.com/in/simonsd054"
-          class="btn btn-secondary btn-lg btn-linkedin"
-          target="_blank"
-        >
-          <i class="fab fa-linkedin"></i> LinkedIn Profile </a
-        ><br /><br />
-        <a
-          href="https://drive.google.com/file/d/1_FmEpQDu9zrlAJewdW_duOS6Y_frvbmO/view?usp=sharing"
-          class="btn btn-secondary btn-lg btn-cv"
-          target="_blank"
-        >
-          <i class="fas fa-scroll"></i> My Resume
-        </a>
+<head>
+  <title>
+    Simon Dahal
+  </title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--Bootstrap CSS-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+  <!--FontAwesome CSS-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <!--My own Custom CSS-->
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/stylesheet.css">
+  <!--Scripts-->
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+  <script src="./js/script.js"></script>
+</head>
+
+<body data-spy="scroll" data-target="#navbar" data-offset="50">
+  <nav id="navbar" class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+          data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#" title="my Website"><img src="./images/simon-logo.png" alt="EmAnt's Logo"
+            style="filter: invert(80%)" /></a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="#home" class="hash"><i class="fas fa-home"></i> Home</a></li>
+          <li><a href="#about" class="hash"><i class="fas fa-info-circle"></i>
+              About</a></li>
+          <li><a href="#portfolio" class="hash"><i class="fas fa-project-diagram"></i>
+              Projects</a></li>
+          <li><a href="#links" class="hash"><i class="fas fa-link"></i>
+              Links</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+  <section id="home" class="main-nav">
+    <div class="heading dark-bg">
+      <div class="row">
+        <div class="col-sm-12 head">
+          <div class="logo">
+            <h1 class="heading-header">S i m o n</h1>
+          </div>
+          <h1 class="stm-font">Web Design and Development</h1>
+        </div>
+      </div>
+      <div class="row">
+        <nav>
+          <ul class="list-inline links ">
+            <li><a class="btn btn-default btn-lg" href="https://github.com/simonsd054" title="Simon on GitHub"
+                target="_blank"><i class="fab fa-github"></i></a></li>
+            <li><a class="btn btn-default btn-lg" href="https://www.linkedin.com/in/simonsd054/"
+                title="Simon on LinkeIn" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            <li><a class="btn btn-default btn-lg"
+                href="https://drive.google.com/file/d/1_FmEpQDu9zrlAJewdW_duOS6Y_frvbmO/view?usp=sharing"
+                title="Simon's CV" target="_blank"><i class="fa fa-scroll"></i></a></li>
+          </ul>
+        </nav>
       </div>
     </div>
-    <div class="container" id="projects">
-      <br />
-      <br />
-      <br />
-      Projects
+    <div class="container">
+      <div class="row showcase stm-font">
+        <div class="col-sm-4 hidden-xs">
+          <div class="well shadow up-hover color-hover">
+            <h1><i class="fas fa-lightbulb"></i></h1>
+            <h2>Concept</h2>
+          </div>
+        </div>
+        <div class="col-sm-4 hidden-xs">
+          <div class="well shadow up-hover color-hover">
+            <h1><i class="fas fa-pencil-alt"></i></h1>
+            <h2>Design</h2>
+          </div>
+        </div>
+        <div class="col-sm-4 hidden-xs">
+          <div class="well shadow up-hover color-hover">
+            <h1><i class="fas fa-code"></i></h1>
+            <h2>Development</h2>
+          </div>
+        </div>
+      </div>
     </div>
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <div class="container" id="aboutme">
-      <br />
-      <br />
-      <br />
-      About Me
+  </section>
+
+  <div class="container">
+    <section id="about" class="main-nav">
+      <h1><i class="fas fa-info-circle"></i> About</h1>
+      <div class="row">
+        <div class="col-sm-4 ">
+          <img src="http://emant.altervista.org/ext/avatar.png" alt="description" title="tool tip"
+            class="img-circle shadow up-hover avatar">
+        </div>
+        <div class="col-sm-8 ">
+          <h2 class="text-primary stm-font">LANGUAGES</h2>
+          <p>C, C++, JavaScript, Java, Python(familiar), PHP (familiar)</p>
+          <h2 class="text-primary stm-font">FRONTEND</h2>
+          <p>VueJS, ReactJS, Bootstrap, HTML, CSS, JQuery</p>
+          <h2 class="text-primary stm-font">BACKEND</h2>
+          <p>NodeJS, ExpressJS, Laravel</p>
+          <h2 class="text-primary stm-font">DATABASE</h2>
+          <p>MySQL, PostgreSQL, MongoDB</p>
+          <h2 class="text-primary stm-font">OTHER COMPUTER SKILLS</h2>
+          <p>Data Structure and Algorithm, Git, Linux, UML, Object-Oriented Analysis and Design, AJAX</p>
+        </div>
+      </div>
+    </section>
+    <section id="portfolio" class="main-nav">
+      <!--start portfolio-->
+      <h1><i class="fas fa-project-diagram"></i> Projects</h1>
+      <div class="row">
+        <!---start row-->
+
+        <div class="col-sm-6 col-md-4">
+          <!--start element 1-->
+          <div class="thumbnail shadow up-hover">
+            <img src="./images/Book Dashboard.jpg" />
+            <div class="cust-caption">
+              <h3 class="stm-font">Book-Database</h3>
+              <p class="cust-text"> A website to help you manage your books and become your own librarian.<p
+                  class="cust-tech">
+                  Laravel | VueJS | Bootstrap </p>
+              </p>
+              <div class="cust-button">
+                <a href="https://github.com/simonsd054/book-database" class="btn btn-github btn-xs" target="_blank"><i
+                    class="fab fa-github"></i> Github Link</a>
+                <a href="http://manage-book.herokuapp.com/" class="btn btn-website btn-xs" target="_blank">
+                  Visit Website <i class="fas fa-external-link-alt"></i> </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--end element 1-->
+
+        <div class=" col-sm-6 col-md-4">
+          <!--start element 2-->
+          <div class="thumbnail shadow up-hover">
+            <img src="./images/mern-todo.jpg" />
+            <div class="cust-caption">
+              <h3 class="stm-font">Todo App</h3>
+              <p class="cust-text"> A website to manage your todo list.<p class="cust-tech">
+                  MongoDB | ExpressJS | ReactJS | NodeJS | Bootstrap </p>
+              </p>
+              <div class="cust-button">
+                <a href="https://github.com/simonsd054/MERN-Stack" class="btn btn-github btn-xs" target="_blank"><i
+                    class="fab fa-github"></i> Github Link</a>
+                <a href="http://mern-todo-simon.herokuapp.com/" class="btn btn-website btn-xs" target="_blank">
+                  Visit Website <i class="fas fa-external-link-alt"></i> </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--end element 2-->
+
+        <div class="col-sm-6 col-md-4">
+          <!--start element 3-->
+          <div class="thumbnail shadow up-hover">
+            <img src="http://emant.altervista.org/ext/calc.jpg" />
+            <div class="cust-caption">
+              <a href="https://codepen.io/Em-Ant/full/OVabRP">
+                <h3 class="stm-font">Pocket Calculator</h3>
+              </a>
+              <p>A bootstrap and jQuery powered emulation of a vintage pocket calculator. It features the classic
+                operator chaining workflow, and the percent operator in windows calc mode.</p>
+            </div>
+          </div>
+        </div>
+        <!--end element 3-->
+
+        <div class="col-sm-6 col-md-4">
+          <!--start element 4-->
+          <div class="thumbnail shadow up-hover">
+            <img src="http://emant.altervista.org/ext/quotes.jpg" />
+            <div class="cust-caption">
+              <a href="https://codepen.io/Em-Ant/full/jPQqwB">
+                <h3 class="stm-font">Random Quotes Machine</h3>
+              </a>
+              <p>This little app retrieves random quotes from the 'Quotes.net' servers. It uses AJAX calls in
+                jQuery,
+                and the Twitter API. Made with Bootstrap, and custom images</p>
+            </div>
+          </div>
+        </div>
+        <!--end element 4-->
+
+        <div class="col-sm-6 col-md-4">
+          <!--start element 5-->
+          <div class="thumbnail shadow up-hover">
+            <img src="http://emant.altervista.org/ext/cnews.jpg" />
+            <div class="cust-caption">
+              <a href="https://codepen.io/Em-Ant/full/WvPNPM">
+                <h3 class="stm-font">fcc Camper News</h3>
+              </a>
+              <p>This app use Ajax to obtain infos about the last posts on the 'freeCodeCamp.com' forum. Then it
+                displays the data using the powerful Bootstrap's responsive grid. Powered by jQuery.</p>
+            </div>
+          </div>
+        </div>
+        <!--end element 5-->
+
+        <div class="col-sm-6 col-md-4">
+          <!--start element 6-->
+          <div class="thumbnail shadow up-hover">
+            <img src="http://emant.altervista.org/ext/tic.jpg" />
+            <div class="cust-caption">
+              <a href="https://codepen.io/Em-Ant/full/KpEWdR">
+                <h3 class="stm-font">Tic Tac Toe</h3>
+              </a>
+              <p>The access point to understanding AI in games. The computer player uses the classic MiniMax
+                algorithm.
+                Try to beat him if you can. Made in Bootstrap, jQuery and font Awesome.</p>
+            </div>
+          </div>
+        </div>
+        <!--end element 6-->
+
+      </div>
+      <!---end row-->
+    </section>
+    <!--end portfolio-->
+  </div>
+  <!--end container-->
+  <footer id="links" class="main-nav stm-font dark-bg">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4 hidden-xs">
+          <ul class="list-unstyled">
+            <li>
+              <h2>My Portfolio</h2>
+            </li>
+            <li>Powered by <a href="http://jquery.com/" target="_blank">jQuery</a></li>
+            <li>Designed with <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-8  center">
+          <h1 class="footer-text">S i m o n</h1>
+          <p>contact me at <a href="mailto:simonsd054@gmail.com">simonsd054@gmail.com</a></p>
+        </div>
+      </div>
     </div>
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-  </body>
+    </div>
+  </footer>
+</body>
+
 </html>
