@@ -71,7 +71,6 @@ body {
 
 .about-text {
   font-family: "Share Tech Mono";
-  text-align: justify;
 }
 
 .stm-font {
@@ -103,7 +102,6 @@ body {
 
 .heading {
   text-align: center;
-  padding: 10px;
 }
 
 .heading-header {
@@ -115,6 +113,10 @@ body {
   font-size: 1.2em;
   position: relative;
   left: 10px;
+}
+
+#portfolio li {
+  font-size: 1.2em;
 }
 
 .logo {
@@ -197,7 +199,14 @@ ul.links i {
   font-size: 25px;
 }
 
-.footer-text {
-  font-family: patriotic_nepali;
-  font-size: 70px;
+.element-divider {
+  border-top: 1px solid rgb(173, 170, 170);
+}
+
+.divider-right {
+  border-right: 1px solid #bdb7b7;
+}
+
+.pb-200 {
+  padding-bottom: 200px;
 }
