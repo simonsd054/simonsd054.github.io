@@ -112,7 +112,7 @@ body {
 #about p {
   font-size: 1.2em;
   position: relative;
-  left: 10px;
+  /* left: 10px; */
 }
 
 #portfolio li {
@@ -207,10 +207,41 @@ ul.links i {
   border-right: 1px solid #bdb7b7;
 }
 
+.m-0 {
+  margin: 0;
+}
+
 .pb-200 {
   padding-bottom: 200px;
 }
 
 .mb-20 {
   margin-bottom: 20px;
+}
+
+.education-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.education-section-div {
+  display: grid;
+  grid-template-columns: auto auto;
+  font-size: 17px;
+}
+
+.education-date {
+  text-align: right;
+}
+
+.experience-section {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+}
+
+.experience-date {
+  text-align: right;
 }
